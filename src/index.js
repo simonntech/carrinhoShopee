@@ -17,10 +17,13 @@ await cartService.addItem(myCart, item2);
 await cartService.addItem(myCart, item3);
 
 // deletar itens nos carrinhos
-await cartService.deleteItem(myCart, item2.name);
+// await cartService.deleteItem(myCart, item2.name);
 
-console.log("💲 TOTAL Wishlist: ")
-await cartService.calculateTotal(myWhishList);
+// console.log("💲 TOTAL Wishlist: ")
+// await cartService.calculateTotal(myWhishList);
 
-console.log("💲 Shopee Cart Total: ")
+// display dos itens no carrinho
+await cartService.displayCart(myCart)
+
+// mostra o valor TOTAL do carrinho
 await cartService.calculateTotal(myCart);
