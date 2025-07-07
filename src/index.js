@@ -1,1 +1,3 @@
-console.log("🛒🈴 Shopee")
+//console.log("🛒🈴 Shopee")
+
+const cart = [];
